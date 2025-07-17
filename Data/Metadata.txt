@@ -1,0 +1,63 @@
+This file contains all the meta information regarding the columns described in the CSV file 'netflix_india_yt_data.csv'. 
+
+
+---------------------------------------------------------------------------------------------
+
+Column description for netflix_india_yt_data:
+
+
+- video_id: 
+This field represents the specific YouTube video's unique identification code, which is assigned to each video on the platform.
+
+
+- title:  
+The title of the YouTube video is the text that appears as the main heading when the video is viewed on the platform.
+
+
+- description: 
+The description is a text field where content creators can provide a more detailed explanation of the video's content. It allows creators to provide additional context, links, and information to help viewers understand what the video is about.
+
+
+- tags: 
+Tags are keywords or phrases that content creators use to describe the content of their YouTube videos. These tags help users discover videos 
+related to specific topics or themes.
+
+
+- publishedAt: 
+This timestamp indicates the date and time when the YouTube video was originally published on the platform. 
+
+
+- thumbnails: 
+Thumbnails are images or visual representations that users see when browsing YouTube. They serve as previews of the video content and can be provided in JSON format, typically containing different quality versions of the thumbnail image.
+
+
+- viewCount: 
+The view count signifies how many times this specific video has been watched by YouTube users up to the date when the data was gathered. It provides an indication of the video's popularity and reach.
+
+
+- likeCount: 
+Like count refers to the number of times viewers have clicked the "like" button on the video, indicating their appreciation or approval of its content.
+
+
+- commentCount: 
+Comment count represents the number of comments that users have posted on this video. Comments allow viewers to engage with the video's content and share their thoughts or feedback.
+
+
+- duration: 
+The duration of the video is provided in ISO 8601 standard format. This format specifies the length of the video in hours, minutes, and seconds, making it easy to understand the video's length at a glance.
+
+Example: PT26M12S (26 Minutes 12 seconds), PT1H26M10S (1 Hour 26 Minutes 10 Seconds)
+
+
+
+
+---------------------------------
+
+Note: Please find below the additional calculated columns that should be generated to enhance your analysis. (You need to create them)
+
+
+- TagsCount: Indicates the number of tags found in the "Tags" column.
+  
+- Duration: Converts the video duration into a standard time format, either minutes or seconds.
+  
+- Category: Classifies whether the video is in a short or long format.
