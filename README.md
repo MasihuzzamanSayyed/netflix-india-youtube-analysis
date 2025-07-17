@@ -6,19 +6,7 @@ This project dives deep into Netflix India's YouTube channel to understand their
 
 ## 📁 Project Structure
 
-netflix-india-youtube-analysis/
-│
-├── Data/ # Contains datasets (CSV, TXT)
-│ ├── netflix_india_yt_data.csv
-│ └── Metadata.txt
-│
-├── ipynb_code/ # Python notebooks for analysis
-│ └── netflix_youtube_analysis.ipynb
-│
-├── presentation_file/ # Final presentation assets
-│ └── Netflix India YouTube Analysis.pdf
-│
-└── README.md # Project description and guide
+<pre> netflix-india-youtube-analysis/ │ ├── Data/ │ ├── netflix_india_yt_data.csv │ └── Metadata.txt │ ├── ipynb_code/ │ └── netflix_youtube_analysis.ipynb │ ├── presentation_file/ │ └── Netflix India YouTube Analysis.pdf │ └── README.md </pre>
 
 
 ---
